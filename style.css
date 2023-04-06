@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Black.ttf) format('Roboto');
+}
+@font-face {
+    font-family: Roboto-light;
+    src: url(./Roboto/Roboto-Light.ttf);
+}
+* {
+    font-family: Roboto;
+}
+.my-cover {
+    background-image: url('./theater-image-background.png');
+    background-size: cover;
+    min-height: 800px;
+    position: relative;
+    color:white;
+}
+.feature-shows{
+    font-size: 10rem;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px){
+    .my-cover{
+        min-height: 300px;
+    }
+}
+
+.card, .footer-section, .card-body, ul, li{
+    border: none;
+}
+
+.footer-section{
+    height: auto;
+    width: 300px;
+}
+footer {
+    background-color: black;
+}
+.my-footer{
+    color: white;
+    padding-left: 150px;
+}
+li {
+    font-family: Roboto-light;
+}
+.list-title{
+    font-size:x-large;
+    padding-bottom: 20px;
+    font-family: Roboto;
+}
