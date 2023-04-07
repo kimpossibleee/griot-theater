@@ -9,6 +9,9 @@
 * {
     font-family: Roboto;
 }
+.navbarNav{
+    text-align: my-navbar;
+}
 .my-cover {
     background-image: url('./theater-image-background.png');
     background-size: cover;
@@ -54,4 +57,26 @@ li {
     font-size:x-large;
     padding-bottom: 20px;
     font-family: Roboto;
+}
+
+@media (max-width: 480px){
+    .feature-shows{
+        font-size: 3rem;
+    }
+    .my-footer {
+        padding-left: 0px;
+        font-size:.8em;
+    }
+    .list-title{
+        font-size:medium;
+        padding-bottom: 0px;
+    }
+    .chicago{
+        display: none;
+    }
+    .my-cover {
+        background-image: none;
+        color:rgb(76, 76, 76);
+        min-height: 100px;
+}
 }
